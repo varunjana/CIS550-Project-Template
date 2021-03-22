@@ -1,14 +1,13 @@
 const path = require('path')
 
 const express = require('express')
-var  cors = require('cors')
+var cors = require('cors')
 
 
 const PORT = process.env.HTTP_PORT || 8081
 const app = express()
 // allow all clients
 app.use(cors())
-app.use(express.static(path.join(__dirname, 'client', 'build')));
 
 
 // Import all route files

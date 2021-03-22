@@ -1,6 +1,6 @@
 
 const get_movies = async () => {
-    var res = await fetch(`http://localhost:8081/movies`, {
+    var res = await fetch(`/movies`, {
         method: 'GET',
         headers: { 'Content-Type': 'application/json' },
     })
