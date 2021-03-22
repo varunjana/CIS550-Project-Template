@@ -77,8 +77,8 @@ export default class TopNavBar extends React.Component {
               </DropdownMenu>
             </Dropdown>
             <NavItem>
-              <NavLink active href="/" >
-                Disabled
+              <NavLink active href="/movies" >
+                Movies
               </NavLink>
             </NavItem>
             <NavItem>
