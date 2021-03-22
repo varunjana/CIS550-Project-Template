@@ -4,5 +4,10 @@ node_js:
   - "14"
 
 script: 
+  - cd ./server
+  - npm install
+  - cd ..
+  - cd ./client
+  - npm install
   - npm test
   - npm run build
