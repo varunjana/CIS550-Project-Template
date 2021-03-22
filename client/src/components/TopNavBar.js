@@ -71,9 +71,9 @@ export default class TopNavBar extends React.Component {
                 About
               </DropdownToggle>
               <DropdownMenu>
-                <DropdownItem href="/">Action</DropdownItem>
-                <DropdownItem href="/">Another action</DropdownItem>
-                <DropdownItem href="/">Something else here</DropdownItem>
+                <DropdownItem href="/about">Action</DropdownItem>
+                <DropdownItem href="/about">Another action</DropdownItem>
+                <DropdownItem href="/about">Something else here</DropdownItem>
               </DropdownMenu>
             </Dropdown>
             <NavItem>

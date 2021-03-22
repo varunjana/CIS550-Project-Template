@@ -16,6 +16,8 @@ Install Routing dependencies:
 
 ```react-router-dom```
 
+Change directory structure to route from index.js and bypass App.js.
+Modify the tests file.
 Install Shards React
 
 ```npm install shards-react```
