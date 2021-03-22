@@ -1,1 +1,1 @@
-# CIS550-Resources
+# CIS550 Project Template 
